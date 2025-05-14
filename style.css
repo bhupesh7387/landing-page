@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 72px;
+    padding: 8px 108px;
     background-color: #1f2937;
 }
 
@@ -29,7 +29,51 @@ body {
 
 .header .links a {
     text-decoration: none;
-
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 108px;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero .content h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero .content p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero .content button {
+    border: none;
+    outline: none;
+    padding: 7px 16px;
+    width: fit-content;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.hero .img-container {
+    width: 500px;
+    height: 300px;
+    background-color: grey;
+    /* flex-shrink: 0; */
 }
