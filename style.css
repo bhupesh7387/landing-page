@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 72px;
+    background-color: #1f2937;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header .links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header .links a {
+    text-decoration: none;
+
+    font-size: 18px;
+    color: #e5e7eb;
+}
