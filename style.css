@@ -130,3 +130,42 @@ body {
     align-self: flex-end;
     color: #1f2937;
 }
+
+.action {
+    padding: 72px 196px;
+}
+
+.action .container {
+    background-color: #3882f6;
+    padding: 48px 108px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+
+    border-radius: 10px;
+}
+
+.action .content h2 {
+    color: white;
+}
+
+.action .content p {
+    color: #e5e7eb;
+}
+
+.action button {
+    border: 2px solid white;
+    outline: none;
+    padding: 7px 24px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
